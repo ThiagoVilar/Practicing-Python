@@ -1,0 +1,8 @@
+distancia_percorrida = int(input('Digite a distância percorrida (em km): '))
+
+if distancia_percorrida <= 100:
+    print('Valor do pedágio: R$ 10,00 ')
+elif distancia_percorrida <= 200:
+    print('Valor do pedágio: R$ 20,00 ')
+else:
+    print('Valor do pedágio: R$ 30,00 ')

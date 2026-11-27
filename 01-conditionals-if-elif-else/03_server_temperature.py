@@ -1,6 +1,10 @@
-temperatura = int(input('Digite a temperatura atual: '))
+# Activity 03: Server temperature
+# Reads the current temperature and shows an alert
+# if it is above the allowed limit (25).
 
-if temperatura > 25:
-    print('Alerta! Temperatura a cima do limite permitido.')
+temperature = int(input('Enter the current temperature: '))
+
+if temperature > 25:
+    print('Alert! Temperature above the allowed limit.')
 else:
-    print('Temperatura dentro do limite seguro.')
+    print('Temperature within the safe limit.')

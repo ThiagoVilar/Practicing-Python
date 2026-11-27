@@ -4,9 +4,7 @@ Python learner building projects one step at a time.
 
 ## Topics
 
-| Topic | Source |
-|-------|--------|
-| [Conditionals: if, elif and else](./01-conditionals-if-elif-else) | Alura |
+- [Conditionals: if, elif and else](./01-conditionals-if-elif-else)
 
 ## Contact
 

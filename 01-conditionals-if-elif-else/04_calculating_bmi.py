@@ -1,12 +1,16 @@
-peso = int(input('Digite o seu peso (kg): '))
-altura = float(input('Digite sua altura (m): '))
-imc = peso / (altura ** 2)
+# Activity 04: Calculating BMI
+# Reads weight and height, calculates the BMI
+# and shows the weight category.
 
-print(f'Seu IMC é {imc:.2f}')
+weight = float(input('Enter your weight (kg): '))
+height = float(input('Enter your height (m): '))
+bmi = weight / (height ** 2)
 
-if imc < 18.5:
-    print('Você está abaixo do peso.')
-elif imc < 25:
-    print('Você está com o peso normal.')
+print(f'Your BMI is {bmi:.2f}')
+
+if bmi < 18.5:
+    print('You are underweight.')
+elif bmi < 25:
+    print('You are at a normal weight.')
 else:
-    print('Você está acima do peso.')
+    print('You are overweight.')

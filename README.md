@@ -2,12 +2,11 @@
 
 Python learner building projects one step at a time.
 
-## Projects
+## Topics
 
-| Project | Description |
-|---------|-------------|
-| [Project name](#) | Short description |
-| [Project name](#) | Short description |
+| Topic | Source |
+|-------|--------|
+| [Conditionals: if, elif and else](./01-conditionals-if-elif-else) | Alura |
 
 ## Contact
 
